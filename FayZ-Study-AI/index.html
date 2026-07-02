@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FayZ Study AI</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/chat.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!-- Splash Screen -->
+    <div id="splashScreen">
+
+        <div class="logoBox">
+
+            <h1>📚 FayZ Study AI</h1>
+
+            <p>Your Personal AI Study Assistant</p>
+
+            <button id="enterBtn">
+                Enter Application
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- Dashboard -->
+    <div id="dashboard" class="hidden">
+
+        <header>
+
+            <div>
+
+                <h2>📚 FayZ Study AI</h2>
+
+                <p>Welcome back!</p>
+
+            </div>
+
+            <button id="themeBtn">
+                🌙
+            </button>
+
+        </header>
+
+        <main>
+
+            <div class="card" id="chatCard">
+                💬
+                <h3>AI Chat</h3>
+                <p>Ask anything</p>
+            </div>
+
+            <div class="card">
+                📄
+                <h3>Study PDF</h3>
+                <p>Coming Soon</p>
+            </div>
+
+            <div class="card">
+                📝
+                <h3>Notes</h3>
+                <p>Coming Soon</p>
+            </div>
+
+            <div class="card">
+                ❓
+                <h3>Quiz</h3>
+                <p>Coming Soon</p>
+            </div>
+
+            <div class="card">
+                🌍
+                <h3>Translator</h3>
+                <p>Coming Soon</p>
+            </div>
+
+            <div class="card">
+                ⚙️
+                <h3>Settings</h3>
+                <p>Coming Soon</p>
+            </div>
+
+        </main>
+
+    </div>
+
+    <!-- Chat Page -->
+    <div id="chatPage" class="hidden">
+
+        <header>
+
+            <button id="backBtn">
+                ← Back
+            </button>
+
+            <h2>💬 AI Chat</h2>
+
+        </header>
+
+        <div id="messages">
+
+            <div class="aiMessage">
+                👋 Hello! I am FayZ Study AI.
+                <br><br>
+                How can I help you today?
+            </div>
+
+        </div>
+
+        <div id="inputArea">
+
+            <input
+                type="text"
+                id="questionBox"
+                placeholder="Type your question...">
+
+            <button id="sendBtn">
+                ➤
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/app.js"></script>
+    <script src="js/chat.js"></script>
+    <script src="js/theme.js"></script>
+
+</body>
+
+</html>
